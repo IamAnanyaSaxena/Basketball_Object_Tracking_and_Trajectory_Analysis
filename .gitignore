@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Model weights
+*.pt
+*.onnx
+*.engine
+
+# Video files
+*.mp4
+*.mov
+*.avi
+
+# Generated output
+basketball_output/
+runs/
+
+# Mac files
+.DS_Store
+
+# Environment files
+.env
+
+# Exclude all generated output
+basketball_output/
+
+# Exclude model files
+*.pt
+
+# Exclude Mac metadata
+.DS_Store
